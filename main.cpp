@@ -72,5 +72,5 @@ int main() {
     }
     // Game over
     std::cout << "\nGame over.\n";
-    std::cout << "Your score was " << score << " points. You did it!\n";
+    std::cout << "Your score was " << score << " points. Congrats, you did it!\n";
 }
