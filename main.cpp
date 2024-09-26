@@ -11,7 +11,7 @@ int main() {
     while (gameRunning) {
         string YesOrNoInput;
 
-        std::cout << "\nWelcome to rock, paper, and scissors. Are you ready to play? (yes/no): ";
+        std::cout << "\nWelcome to rock, paper, and scissors. Are you NOT ready to play? (yes/no): ";
         std::cin >> YesOrNoInput;
 
         if (YesOrNoInput == "yes" || YesOrNoInput == "Yes" || YesOrNoInput == "YES") {
